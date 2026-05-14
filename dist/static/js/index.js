@@ -7,8 +7,8 @@ __webpack_require__.r(__webpack_exports__);
     if(true) {
       (function() {
         var localsJsonString = undefined;
-        // 1778777446682
-        var cssReload = __webpack_require__(Object(function __rspack_missing_module() { var e = new Error("Cannot find module '../../node_modules/.pnpm/@rspack+core@2.0.3_@swc+helpers@0.5.21/node_modules/@rspack/core/dist/cssExtractHmr.js'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()))(module.id, {});
+        // 1778783684245
+        var cssReload = (__webpack_require__("./node_modules/.pnpm/@rspack+core@2.0.3_@swc+helpers@0.5.21/node_modules/@rspack/core/dist/cssExtractHmr.js")/* .cssReload */.cssReload)(module.id, {});
         // only invalidate when locals change
         if (
           module.hot.data &&
@@ -59,12 +59,12 @@ __webpack_require__.d(__webpack_exports__, {
 function Layout() {
     return /*#__PURE__*/ (0,react_jsx_dev_runtime__rspack_import_0.jsxDEV)("div", {
         children: /*#__PURE__*/ (0,react_jsx_dev_runtime__rspack_import_0.jsxDEV)(_modern_js_runtime_router__rspack_import_2.Outlet, {}, void 0, false, {
-            fileName: "/home/bruno/modern-a11y/src/routes/layout.tsx",
+            fileName: "/home/brunomelomoreira/modern-a11y/src/routes/layout.tsx",
             lineNumber: 7,
             columnNumber: 7
         }, this)
     }, void 0, false, {
-        fileName: "/home/bruno/modern-a11y/src/routes/layout.tsx",
+        fileName: "/home/brunomelomoreira/modern-a11y/src/routes/layout.tsx",
         lineNumber: 6,
         columnNumber: 5
     }, this);
@@ -550,18 +550,18 @@ __webpack_require__.r(__webpack_exports__);
 
 
 },
-"data:text/javascript,import%20%7B%20init%20%7D%20from%20'%2Fhome%2Fbruno%2Fmodern-a11y%2Fnode_modules%2F.pnpm%2F%40rsbuild%2Bcore%402.0.0_core-js%403.49.0%2Fnode_modules%2F%40rsbuild%2Fcore%2Fdist%2Fclient%2Fhmr.js'%3B%0A%0Ainit(%0A%20%20'c5505280e919db1e'%2C%0A%20%20%7B%22path%22%3A%22%2Fwebpack-hmr%22%2C%22port%22%3A8081%2C%22host%22%3A%22%22%2C%22overlay%22%3Afalse%2C%22reconnect%22%3A100%2C%22logLevel%22%3A%22info%22%7D%2C%0A%20%20%22localhost%22%2C%0A%20%208081%2C%0A%20%20%22%2F%22%2C%0A%20%20true%2C%0A%20%20true%2C%0A%20%20%22info%22%0A)%0A"(__unused_rspack___webpack_module__, __webpack_exports__, __webpack_require__) {
+"data:text/javascript,import%20%7B%20init%20%7D%20from%20'%2Fhome%2Fbrunomelomoreira%2Fmodern-a11y%2Fnode_modules%2F.pnpm%2F%40rsbuild%2Bcore%402.0.0_core-js%403.49.0%2Fnode_modules%2F%40rsbuild%2Fcore%2Fdist%2Fclient%2Fhmr.js'%3B%0A%0Ainit(%0A%20%20'be18918de5636737'%2C%0A%20%20%7B%22path%22%3A%22%2Fwebpack-hmr%22%2C%22port%22%3A8080%2C%22host%22%3A%22%22%2C%22overlay%22%3Afalse%2C%22reconnect%22%3A100%2C%22logLevel%22%3A%22info%22%7D%2C%0A%20%20%22localhost%22%2C%0A%20%208080%2C%0A%20%20%22%2F%22%2C%0A%20%20true%2C%0A%20%20true%2C%0A%20%20%22info%22%0A)%0A"(__unused_rspack___webpack_module__, __webpack_exports__, __webpack_require__) {
 __webpack_require__.r(__webpack_exports__);
-Object(function __rspack_missing_module() { var e = new Error("Cannot find module '/home/bruno/modern-a11y/node_modules/.pnpm/@rsbuild+core@2.0.0_core-js@3.49.0/node_modules/@rsbuild/core/dist/client/hmr.js'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+/* import */ var _home_brunomelomoreira_modern_a11y_node_modules_pnpm_rsbuild_core_2_0_0_core_js_3_49_0_node_modules_rsbuild_core_dist_client_hmr_js__rspack_import_0 = __webpack_require__("./node_modules/.pnpm/@rsbuild+core@2.0.0_core-js@3.49.0/node_modules/@rsbuild/core/dist/client/hmr.js");
 
-Object(function __rspack_missing_module() { var e = new Error("Cannot find module '/home/bruno/modern-a11y/node_modules/.pnpm/@rsbuild+core@2.0.0_core-js@3.49.0/node_modules/@rsbuild/core/dist/client/hmr.js'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())('c5505280e919db1e', {
+(0,_home_brunomelomoreira_modern_a11y_node_modules_pnpm_rsbuild_core_2_0_0_core_js_3_49_0_node_modules_rsbuild_core_dist_client_hmr_js__rspack_import_0.init)('be18918de5636737', {
     "path": "/webpack-hmr",
-    "port": 8081,
+    "port": 8080,
     "host": "",
     "overlay": false,
     "reconnect": 100,
     "logLevel": "info"
-}, "localhost", 8081, "/", true, true, "info");
+}, "localhost", 8080, "/", true, true, "info");
 
 
 },
@@ -574,8 +574,8 @@ window.__assetPrefix__ = '';
 
 },function(__webpack_require__) {
 var __webpack_exec__ = function(moduleId) { return __webpack_require__(__webpack_require__.s = moduleId) }
-__webpack_require__.O(0, ["lib-polyfill","lib-react","lib-router","vendors-node_modules_modern-js_index_index_jsx-node_modules_pnpm_modern-js_runtime_3_2_0_core-bbdbfa"], function() {
-        return __webpack_exec__("./node_modules/.pnpm/@rspack+plugin-react-refresh@2.0.0_@rspack+core@2.0.3_@swc+helpers@0.5.21__react-refresh@0.18.0/node_modules/@rspack/plugin-react-refresh/client/reactRefreshEntry.js"), __webpack_exec__("data:text/javascript,import%20%7B%20init%20%7D%20from%20'%2Fhome%2Fbruno%2Fmodern-a11y%2Fnode_modules%2F.pnpm%2F%40rsbuild%2Bcore%402.0.0_core-js%403.49.0%2Fnode_modules%2F%40rsbuild%2Fcore%2Fdist%2Fclient%2Fhmr.js'%3B%0A%0Ainit(%0A%20%20'c5505280e919db1e'%2C%0A%20%20%7B%22path%22%3A%22%2Fwebpack-hmr%22%2C%22port%22%3A8081%2C%22host%22%3A%22%22%2C%22overlay%22%3Afalse%2C%22reconnect%22%3A100%2C%22logLevel%22%3A%22info%22%7D%2C%0A%20%20%22localhost%22%2C%0A%20%208081%2C%0A%20%20%22%2F%22%2C%0A%20%20true%2C%0A%20%20true%2C%0A%20%20%22info%22%0A)%0A"), __webpack_exec__("data:text/javascript;charset=utf-8,window.__assetPrefix__%20%3D%20''%3B"), __webpack_exec__("data:text/javascript,import%20%22core-js%22%3B"), __webpack_exec__("./node_modules/.modern-js/index/index.jsx");
+__webpack_require__.O(0, ["lib-polyfill","lib-react","lib-router","vendors-node_modules_modern-js_index_index_jsx-node_modules_pnpm_rsbuild_core_2_0_0_core-js_3-5b0a95"], function() {
+        return __webpack_exec__("./node_modules/.pnpm/@rspack+plugin-react-refresh@2.0.0_@rspack+core@2.0.3_@swc+helpers@0.5.21__react-refresh@0.18.0/node_modules/@rspack/plugin-react-refresh/client/reactRefreshEntry.js"), __webpack_exec__("data:text/javascript,import%20%7B%20init%20%7D%20from%20'%2Fhome%2Fbrunomelomoreira%2Fmodern-a11y%2Fnode_modules%2F.pnpm%2F%40rsbuild%2Bcore%402.0.0_core-js%403.49.0%2Fnode_modules%2F%40rsbuild%2Fcore%2Fdist%2Fclient%2Fhmr.js'%3B%0A%0Ainit(%0A%20%20'be18918de5636737'%2C%0A%20%20%7B%22path%22%3A%22%2Fwebpack-hmr%22%2C%22port%22%3A8080%2C%22host%22%3A%22%22%2C%22overlay%22%3Afalse%2C%22reconnect%22%3A100%2C%22logLevel%22%3A%22info%22%7D%2C%0A%20%20%22localhost%22%2C%0A%20%208080%2C%0A%20%20%22%2F%22%2C%0A%20%20true%2C%0A%20%20true%2C%0A%20%20%22info%22%0A)%0A"), __webpack_exec__("data:text/javascript;charset=utf-8,window.__assetPrefix__%20%3D%20''%3B"), __webpack_exec__("data:text/javascript,import%20%22core-js%22%3B"), __webpack_exec__("./node_modules/.modern-js/index/index.jsx");
       });
 var __webpack_exports__ = __webpack_require__.O();
 

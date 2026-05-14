@@ -58,7 +58,7 @@ export default function InteractiveListPage() {
               >
                 <div className="flex-1">
                   <span className="font-semibold text-sm block">{item.label}</span>
-                  <span className="text-gray-500 text-sm">{item.description}</span>
+                  <span className="text-gray-600 text-sm">{item.description}</span>
                 </div>
                 <button
                   tabIndex={isCurrent ? 0 : -1}

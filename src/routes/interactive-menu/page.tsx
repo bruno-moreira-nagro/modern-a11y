@@ -60,7 +60,7 @@ export default function InteractiveMenuPage() {
                       className={[
                         'w-full text-left px-4 py-2 text-sm outline-none transition-colors',
                         action.label === 'Delete'
-                          ? 'text-red-600 hover:bg-red-50 focus-visible:bg-red-50'
+                          ? 'text-red-700 hover:bg-red-50 focus-visible:bg-red-50'
                           : 'text-gray-700 hover:bg-gray-50 focus-visible:bg-indigo-50 focus-visible:text-indigo-700',
                       ].join(' ')}
                     >

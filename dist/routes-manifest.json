@@ -6,17 +6,15 @@
         "lib-react",
         "lib-router",
         "lib-polyfill",
-        "vendors-node_modules_modern-js_index_index_jsx-node_modules_pnpm_modern-js_runtime_3_2_0_core-bbdbfa",
+        "vendors-node_modules_modern-js_index_index_jsx-node_modules_pnpm_rsbuild_core_2_0_0_core-js_3-5b0a95",
         "index"
       ],
       "assets": [
         "/static/js/builder-runtime.js",
-        "/builder-runtime.e953d438fa3ec327.hot-update.js",
         "/static/js/lib-react.js",
         "/static/js/lib-router.js",
         "/static/js/lib-polyfill.js",
-        "/static/js/vendors-node_modules_modern-js_index_index_jsx-node_modules_pnpm_modern-js_runtime_3_2_0_core-bbdbfa.js",
-        "/index.e953d438fa3ec327.hot-update.js",
+        "/static/js/vendors-node_modules_modern-js_index_index_jsx-node_modules_pnpm_rsbuild_core_2_0_0_core-js_3-5b0a95.js",
         "/static/js/index.js",
         "/static/css/index.css"
       ],

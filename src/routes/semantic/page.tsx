@@ -5,7 +5,7 @@ export default function SemanticPage() {
       {/* ── HEADER ───────────────────────────────────────────────── */}
       <header className="bg-indigo-700 text-white px-6 py-4 flex items-center justify-between">
         <div>
-          <span className="text-xs font-mono uppercase tracking-widest text-indigo-300 block mb-0.5">
+          <span className="text-xs font-mono uppercase tracking-widest text-indigo-100 block mb-0.5">
             &lt;header&gt;
           </span>
           <a href="/" className="text-xl font-bold hover:underline">
@@ -14,7 +14,7 @@ export default function SemanticPage() {
         </div>
 
         <nav aria-label="Main navigation">
-          <span className="text-xs font-mono uppercase tracking-widest text-indigo-300 block mb-1">
+          <span className="text-xs font-mono uppercase tracking-widest text-indigo-100 block mb-1">
             &lt;nav&gt;
           </span>
           <ul className="flex gap-6 list-none m-0 p-0">
@@ -30,7 +30,7 @@ export default function SemanticPage() {
 
         {/* ── MAIN ──────────────────────────────────────────────── */}
         <main className="flex-1 min-w-0" aria-label="Article content">
-          <span className="text-xs font-mono text-emerald-600 uppercase tracking-widest">
+          <span className="text-xs font-mono text-emerald-700 uppercase tracking-widest">
             &lt;main&gt;
           </span>
 
@@ -40,7 +40,7 @@ export default function SemanticPage() {
 
           {/* Section 1 */}
           <section aria-labelledby="intro-heading" className="mb-8">
-            <span className="text-xs font-mono text-sky-600 uppercase tracking-widest">
+            <span className="text-xs font-mono text-sky-700 uppercase tracking-widest">
               &lt;section&gt;
             </span>
             <h2 id="intro-heading" className="text-xl font-semibold mt-1 mb-3">
@@ -58,7 +58,7 @@ export default function SemanticPage() {
 
           {/* Section 2 */}
           <section aria-labelledby="landmarks-heading" className="mb-8">
-            <span className="text-xs font-mono text-sky-600 uppercase tracking-widest">
+            <span className="text-xs font-mono text-sky-700 uppercase tracking-widest">
               &lt;section&gt;
             </span>
             <h2 id="landmarks-heading" className="text-xl font-semibold mt-1 mb-3">
@@ -79,7 +79,7 @@ export default function SemanticPage() {
 
           {/* Section 3 */}
           <section aria-labelledby="headings-heading" className="mb-8">
-            <span className="text-xs font-mono text-sky-600 uppercase tracking-widest">
+            <span className="text-xs font-mono text-sky-700 uppercase tracking-widest">
               &lt;section&gt;
             </span>
             <h2 id="headings-heading" className="text-xl font-semibold mt-1 mb-3">
@@ -101,7 +101,7 @@ export default function SemanticPage() {
           className="w-72 shrink-0"
           aria-label="Related resources"
         >
-          <span className="text-xs font-mono text-amber-600 uppercase tracking-widest">
+          <span className="text-xs font-mono text-amber-700 uppercase tracking-widest">
             &lt;aside&gt;
           </span>
 
@@ -142,7 +142,7 @@ export default function SemanticPage() {
 
       {/* ── FOOTER ───────────────────────────────────────────────── */}
       <footer className="bg-gray-800 text-gray-300 px-6 py-8 mt-4">
-        <span className="text-xs font-mono text-gray-500 uppercase tracking-widest block mb-4">
+        <span className="text-xs font-mono text-gray-400 uppercase tracking-widest block mb-4">
           &lt;footer&gt;
         </span>
         <div className="max-w-6xl mx-auto flex flex-col sm:flex-row justify-between gap-6">

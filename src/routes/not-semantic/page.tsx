@@ -5,7 +5,7 @@ export default function NotSemanticPage() {
       {/* ── "HEADER" ──────────────────────────────────────────────── */}
       <div className="bg-indigo-700 text-white px-6 py-4 flex items-center justify-between">
         <div>
-          <span className="text-xs font-mono uppercase tracking-widest text-indigo-300 block mb-0.5">
+          <span className="text-xs font-mono uppercase tracking-widest text-indigo-100 block mb-0.5">
             &lt;div&gt;
           </span>
           <a href="/" className="text-xl font-bold hover:underline">
@@ -14,7 +14,7 @@ export default function NotSemanticPage() {
         </div>
 
         <div>
-          <span className="text-xs font-mono uppercase tracking-widest text-indigo-300 block mb-1">
+          <span className="text-xs font-mono uppercase tracking-widest text-indigo-100 block mb-1">
             &lt;div&gt;
           </span>
           <div className="flex gap-6">
@@ -30,7 +30,7 @@ export default function NotSemanticPage() {
 
         {/* ── "MAIN" ────────────────────────────────────────────── */}
         <div className="flex-1 min-w-0">
-          <span className="text-xs font-mono text-emerald-600 uppercase tracking-widest">
+          <span className="text-xs font-mono text-emerald-700 uppercase tracking-widest">
             &lt;div&gt;
           </span>
 
@@ -40,7 +40,7 @@ export default function NotSemanticPage() {
 
           {/* "Section" 1 */}
           <div className="mb-8">
-            <span className="text-xs font-mono text-sky-600 uppercase tracking-widest">
+            <span className="text-xs font-mono text-sky-700 uppercase tracking-widest">
               &lt;div&gt;
             </span>
             <div className="text-xl font-semibold mt-1 mb-3">
@@ -58,7 +58,7 @@ export default function NotSemanticPage() {
 
           {/* "Section" 2 */}
           <div className="mb-8">
-            <span className="text-xs font-mono text-sky-600 uppercase tracking-widest">
+            <span className="text-xs font-mono text-sky-700 uppercase tracking-widest">
               &lt;div&gt;
             </span>
             <div className="text-xl font-semibold mt-1 mb-3">
@@ -79,7 +79,7 @@ export default function NotSemanticPage() {
 
           {/* "Section" 3 */}
           <div className="mb-8">
-            <span className="text-xs font-mono text-sky-600 uppercase tracking-widest">
+            <span className="text-xs font-mono text-sky-700 uppercase tracking-widest">
               &lt;div&gt;
             </span>
             <div className="text-xl font-semibold mt-1 mb-3">
@@ -98,7 +98,7 @@ export default function NotSemanticPage() {
 
         {/* ── "ASIDE" ───────────────────────────────────────────── */}
         <div className="w-72 shrink-0">
-          <span className="text-xs font-mono text-amber-600 uppercase tracking-widest">
+          <span className="text-xs font-mono text-amber-700 uppercase tracking-widest">
             &lt;div&gt;
           </span>
 
@@ -125,7 +125,7 @@ export default function NotSemanticPage() {
 
       {/* ── "FOOTER" ──────────────────────────────────────────────── */}
       <div className="bg-gray-800 text-gray-300 px-6 py-8 mt-4">
-        <span className="text-xs font-mono text-gray-500 uppercase tracking-widest block mb-4">
+        <span className="text-xs font-mono text-gray-400 uppercase tracking-widest block mb-4">
           &lt;div&gt;
         </span>
         <div className="max-w-6xl mx-auto flex flex-col sm:flex-row justify-between gap-6">
