@@ -11,10 +11,12 @@
       ],
       "assets": [
         "/static/js/builder-runtime.js",
+        "/builder-runtime.b8c26857a32e2396.hot-update.js",
         "/static/js/lib-react.js",
         "/static/js/lib-router.js",
         "/static/js/lib-polyfill.js",
         "/static/js/vendors-node_modules_modern-js_index_index_jsx-node_modules_pnpm_rsbuild_core_2_0_0_core-js_3-5b0a95.js",
+        "/index.b8c26857a32e2396.hot-update.js",
         "/static/js/index.js",
         "/static/css/index.css"
       ],

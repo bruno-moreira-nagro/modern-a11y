@@ -1,5 +1,10 @@
 # Modern.js App
 
+## Prerequisites
+
+- **Node.js** `>=20` — [nodejs.org](https://nodejs.org)
+- **pnpm** `>=9` — install with `npm install -g pnpm` or see [pnpm.io](https://pnpm.io/installation)
+
 ## Setup
 
 Install the dependencies:
